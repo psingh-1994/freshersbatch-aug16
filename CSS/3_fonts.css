@@ -1,0 +1,6 @@
+p.sansserif{
+    font-family:  sans-serif;
+}
+p.capitalize {
+    text-transform: capitalize;
+}
