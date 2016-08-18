@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" type="text/css" href="submit_ad.css">	
+	<script type="text/javascript" src="Categories.js"></script>
+	<script type="text/javascript" src="register.js"></script>
+	<title>MRP</title>		
+</head>
+<body id="container" onload="showCategory();logged_UI()">
+	<div id="main-content">	
+	   <figure>
+	    	<a href="Home.html"><img src='images/logo2.jpg' id="logo"></a>
+	    	<figcaption>
+	    		Xoriant
+	    	</figcaption>
+	    </figure>
+	  	
+		<div id="menu-list">				
+		</div>
+	
+		<span id="logo-ad">
+			<a href="login.html"><button id="login-button">Login</button></a>
+			<a href="#"><button id="submit-ad-button" class="active">Submit free Ad</button></a>
+		</span>
+		
+				<table id="my_table"></table>
+		
+		<div class="slideshow-container" id="hidethis">
+		    <form>
+               <label for="fname"><b>Ad Title:</b></label>
+               <input type="text" id="fname" name="adtitle" placeholder= "Add title" required><br>
+               <label for="Category"><b>Category:</b></label>
+              <select id="category" name="category" class="category-submitad" required>
+                
+              </select><br>
+              <label for="ad_disc"><b>Description:</b></label>
+              <input type="text" id="ad_disc" name="ad_disc" placeholder= "Add Description" required><br>
+              <label for="ad_disc"><b>Price:</b></label>
+              <input type="text" id="price" name="ad_disc" placeholder= "Add price" value="&#x20B9" required><br>
+              <label for="Upload"><b>Upload product images</b></label>
+              <input type="file" name="pic" accept="image/*"  id="image" required>  
+              <input type="button" value="Submit" onclick="post_ad()">
+            </form>       	
+       	</div> 
+       	<div style="clear : both"></div>
+       	<div id="footer-content">
+	    <footer>		
+			<p>Posted by: MRP<br>
+		  	Contact information: <a href="mailto:mrp@xoriant.com">mrp@xoriant.com</a></p>
+		  	<table align="center">
+		  		<tr>
+		  			<td><a href="http:\\www.google.com">Popular searches</a></td>
+		  			<td><a href="http:\\www.google.com">Terms of use</a></td>
+		  			<td><a href="http:\\www.google.com">About us</a></td>
+		  		</tr>
+		  		<td><a href="help1.html">Help and contact us</a></td>
+		  		<td><a href="http:\\www.google.com">Join MRP</a></td>
+		  		<td><a href="http:\\www.google.com">Locations</a></td>
+		  	</table>			
+		</footer>
+	</div>		
+	</div>
+
+</body>
+</html>

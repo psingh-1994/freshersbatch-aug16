@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" type="text/css" href="submit_ad.css">	
+	<script type="text/javascript" src="Categories.js"></script>
+	<script type="text/javascript" src="register.js"></script>
+	<title>MRP</title>
+</head>
+<body id="container" onload="showCategory()">
+	<div id="main-content">	
+	   <figure>
+	    	<a href="Home.html"><img src='images/logo2.jpg' id="logo"></a>
+	    	<figcaption>
+	    		Xoriant
+	    	</figcaption>
+	    </figure>
+	  	
+		<div id="menu-list">				
+		</div>
+	
+		<span id="logo-ad">
+			<a href="#" ><button id="login-button" class="active">Login</button></a>
+			<a href="submit_ad.html"><button id="submit-ad-button">Submit free Ad</button></a>
+		</span>
+		<div id="search-hide">
+			<input type="text" id="search" name="search" placeholder="Search...">
+			<select id="category" class="select_item">
+			<input type="button" value="Search" name="Search" onclick="searching()">
+		</div>
+
+		<div class="slideshow-container" id="login-slideshow-container">
+		    <form>
+               <label for="fname"><b>Username</b></label><br>
+               <input type="text" id="uname" placeholder= "Enter username" required><br>
+               <label for="Category"><b>Password</b></label><br>            
+               <input type="password" id="pass" placeholder= "Enter Password" required><br>     
+              <input type="button" value="Submit" onclick="validate_user()">
+              <a href="register.html" id="new-user-link">New user?</a>
+            </form>       	
+       	</div> 
+       	<div style="clear : both"></div>
+       	<div id="footer-content">
+	    <footer>		
+			<p>Posted by: MRP<br>
+		  	Contact information: <a href="mailto:mrp@xoriant.com">mrp@xoriant.com</a></p>
+		  	<table align="center">
+		  		<tr>
+		  			<td><a href="http:\\www.google.com">Popular searches</a></td>
+		  			<td><a href="http:\\www.google.com">Terms of use</a></td>
+		  			<td><a href="http:\\www.google.com">About us</a></td>
+		  		</tr>
+		  		<td><a href="help1.html">Help and contact us</a></td>
+		  		<td><a href="http:\\www.google.com">Join MRP</a></td>
+		  		<td><a href="http:\\www.google.com">Locations</a></td>
+		  	</table>			
+		</footer>
+	</div>		
+	</div>
+
+</body>
+</html>

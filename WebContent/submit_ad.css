@@ -1,0 +1,105 @@
+input[type=text],input[type=password],input[type=email],textarea {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+select {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.category-submitad {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=button] {
+    width: 25%;
+    background-color: #45a049;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=button]:hover {
+    background-color: grey;
+    color: black;
+}
+
+input[type=submit] {
+    width: 25%;
+    background-color: #45a049;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-style: italic;
+}
+
+input[type=submit]:hover {
+    background-color: grey;
+    color: black;
+}
+
+input[type=file]{
+    font-family: Georgia, Times, "Times New Roman", serif;
+   
+}
+
+.slideshow-container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+#new-user-link:link{
+    text-decoration: none;
+    font-family: "Times New Roman", Times, serif ;
+    font-size: 18px;
+    color: black;
+}
+
+#new-user-link:hover{
+    text-decoration: underline;
+    color: blue;
+}
+
+label{
+    display: inline-block;
+    width: 15%;
+}
+
+#search-hide{
+    display: none;
+}
+
+/*.footer-submitad{
+    padding-top: 2%;
+    top: 100%;
+}*/
+
+button.active {
+    background-color: green;
+    color: white;
+}

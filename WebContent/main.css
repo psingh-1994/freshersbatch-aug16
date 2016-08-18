@@ -1,0 +1,220 @@
+#container{
+	background-image: url('bg.jpg');
+	background-repeat: repeat;
+	width: 100%	;
+	padding-left: 0.0em;
+}
+
+#main-content{
+
+	background-color: white;
+	position: relative;
+	margin: 5% 5% 5% 5%;
+	border-radius: 7%;
+	border: 1px solid white;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-style: italic;
+
+	/*width: 100%;*/
+}
+
+#logo{
+	  width: 13%;
+    height: 20%; 
+    /*padding-left: 1%;*/
+}
+
+figcaption{
+	font-family: Georgia, Times, "Times New Roman", serif;
+	font-size: 1.2em;
+	font-style: oblique;
+ }
+
+#logo-ad{
+   position: absolute;
+   top: -2px;
+}
+
+button{
+	background-color: #3399ff;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    /*text-decoration: none;*/
+    /*display: center;*/
+    font-size: 20px;
+    /*margin: 4px 2px;*/
+    margin-left: 620px;
+    cursor: pointer;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-style: italic;
+    font-weight: 1px;
+}
+
+#login-button{
+  position: absolute;
+  top: 2em;
+  left: 4em;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-style: italic;
+}
+
+#submit-ad-button{
+	right: -1060px;
+	position: absolute;
+	top: 2em;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-style: italic;
+}
+
+input[type=button] {
+    color: white;    
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 1px;
+    cursor:pointer;
+    margin-left: 1%;
+    border-radius: 12px;
+    background-color: #3399ff;
+}
+
+input[type=button]:hover {
+    background-color:green;
+}
+
+button:hover{
+	background-color: #00b300;
+	color: white;
+}
+
+::-moz-selection {
+    color: red;
+    background: yellow;
+}
+
+::selection {
+    color: red;
+    background: yellow;
+  }
+  
+ /*a:hover{
+ 	content: attr(title);
+ }  */
+#footer-content{
+	margin-top: 10%;
+	text-align: center;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    /*font-style: italic;*/
+}
+footer a{
+    text-decoration: none;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    /*font-style: italic;*/
+} 
+
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-family: Georgia, Times, "Times New Roman", serif;
+  /*font-style: italic;*/
+}
+
+#menu-list {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 300px;
+    background-color: #3399ff;
+    border-style: groove;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 1px;
+    float: left;
+    width: 30%;
+    margin-top: 5%;
+    margin-left: 2%;
+    cursor: pointer;
+}
+
+#menu-list p {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+#menu-list p:hover {
+    background-color: green;
+    color: white;
+}
+
+.slideshow-container{
+	float: right;
+	width: 60%;
+	height: 40%;
+	margin-top: 2.4%;
+	margin-right: 2.2%;
+	/*margin-right: 10%; */
+}
+
+#login-slideshow-container{
+    border-top: 5% ;
+}
+
+p{
+	text-align: center;
+	font-family: Georgia, Times, "Times New Roman", serif;
+  /*font-style: italic;*/
+    
+	font-weight: 1px;
+	font-size: 18px;
+}
+
+#search {
+    width: 20%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    /*background-image: url('search_image.png');*/
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    margin-left: -5%;
+}
+
+/*.select_item{
+	width: 10%;
+    font-size: 0.85em;
+    margin-left: 1%;
+}*/
+
+select{
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#my_table{
+    display: block;
+
+}
+
+
+

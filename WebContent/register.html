@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" type="text/css" href="submit_ad.css">	
+	<script type="text/javascript" src="Categories.js"></script>
+	<script type="text/javascript" src="register.js"></script>
+	<title>MRP</title>	
+</head>
+<body id="container" onload="showCategory()">
+	<div id="main-content">	
+	   <figure>
+	    	<a href="Home.html"><img src='images/logo2.jpg' id="logo"></a>
+	    	<figcaption>
+	    		Xoriant
+	    	</figcaption>
+	    </figure>
+	  	
+		<div id="menu-list">				
+		</div>
+	
+		<span id="logo-ad">
+			<a href="login.html"><button id="login-button">Login</button></a>
+			<a href="submit_ad.html"><button id="submit-ad-button">Submit free Ad</button></a>
+		</span>
+		<div id="search-hide">
+			<input type="text" id="search" name="search" placeholder="Search...">
+			<select id="category" class="select_item">
+			<input type="button" value="Search" name="Search" onclick="searching()">
+		</div>
+		<div class="slideshow-container">
+		    <form>
+		       <label for="fname"><b>Email:</b></label>
+               <input type="email" id="email" name="adtitle" placeholder= "Enter email-address"  required><br>
+               <label for="fname"><b>Username:</b></label>
+               <input type="text" id="uname" name="adtitle" placeholder= "Set username" required><br>               
+               <label for="ad_disc"><b>Password:</b></label>
+               <input type="password" id="password1" name="ad_disc" placeholder= "Set password" required><br>
+               <label for="ad_disc"><b>Re-enter Password:</b></label>
+               <input type="password" id="password2" name="ad_disc" placeholder= "Re-enter password" required><br>     
+               <input type="button" value="Register" onclick="add_user()">
+            </form>       	
+       	</div> 
+       	<div style="clear : both"></div>
+       	<div id="footer-content">
+	    <footer>		
+			<p>Posted by: MRP<br>
+		  	Contact information: <a href="mailto:mrp@xoriant.com">mrp@xoriant.com</a></p>
+		  	<table align="center">
+		  		<tr>
+		  			<td><a href="http:\\www.google.com">Popular searches</a></td>
+		  			<td><a href="http:\\www.google.com">Terms of use</a></td>
+		  			<td><a href="http:\\www.google.com">About us</a></td>
+		  		</tr>
+		  		<td><a href="help1.html">Help and contact us</a></td>
+		  		<td><a href="http:\\www.google.com">Join MRP</a></td>
+		  		<td><a href="http:\\www.google.com">Locations</a></td>
+		  	</table>			
+		</footer>
+	</div>		
+	</div>
+</body>
+</html>

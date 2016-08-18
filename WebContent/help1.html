@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="main.css">	
+	<script type="text/javascript" src="Categories.js"></script>
+	<title>MRP</title>
+</head>
+<body id="container" onload="showCategory()">
+	<div id="main-content">	
+	   <figure>
+	    	<a href="Home.html"><img src='images/logo2.jpg' id="logo"></a>
+	    	<figcaption>
+	    		Xoriant
+	    	</figcaption>
+	    </figure>
+	  	
+		<div id="menu-list">				
+		</div>
+	
+		<span id="logo-ad">
+			<a href="login.html"><button id="login-button">Login</button></a>
+			<a href="submit_ad.html"><button id="submit-ad-button">Submit free Adv</button></a>
+		</span>
+		<div>
+			<input type="text" id="search" name="search" placeholder="Search...">
+			<select id="category" class="select_item">
+			<input type="button" value="Search" name="Search" onclick="searching()">
+			<select id="filter_price">
+			<option value="HtoL">High to Low</option> 
+			<option value="LtoH">Low to High</option></select>
+									
+		</div>
+		<div id="display_table">
+		         <table id="my_table"></table>		         
+		</div>
+		
+		<div class="slideshow-container" id="hidethis">
+		      <h1>Help & Contact us</h1>
+		        <a href="mailto:mrp@xoriant.com">Trouble with your account<br><br></a>
+                <a href="mailto:mrp@xoriant.com">Free Limits<br><br></a>
+                <a href="mailto:mrp@xoriant.com">Featured Ads<br><br></a>  	
+       	</div>
+       	<div style="clear : both"></div>
+       	<div id="footer-content">
+       	<footer>	    		
+			<p>Posted by: MRP<br>
+		  	Contact information: <a href="mailto:mrp@xoriant.com">mrp@xoriant.com</a></p>
+		  	<table align="center">
+		  		<tr>
+		  			<td><a href="http:\\www.google.com">Popular searches</a></td>
+		  			<td><a href="http:\\www.google.com">Terms of use</a></td>
+		  			<td><a href="http:\\www.google.com">About us</a></td>
+		  		</tr>
+		  		<td><a href="help1.html">Help and contact us</a></td>
+		  		<td><a href="http:\\www.google.com">Join MRP</a></td>
+		  		<td><a href="http:\\www.google.com">Locations</a></td>
+		  	</table>		  		
+		</footer> 
+        </div>       		
+	</div>	   	
+</body>
+</html>
